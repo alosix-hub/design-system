@@ -3,7 +3,7 @@ import type { StoryObj, Meta } from '@storybook/react'
 import { Avatar, AvatarProps } from '@alosix-ui/react'
 
 export default {
-  title: 'Data display/Avatar',
+  title: 'React/Data display/Avatar',
   component: Avatar,
   args: {
     src: 'https://avatars.githubusercontent.com/u/13018367?v=4',

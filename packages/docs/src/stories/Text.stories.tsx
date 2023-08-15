@@ -3,7 +3,7 @@ import type { StoryObj, Meta } from '@storybook/react'
 import { Text, TextProps } from '@alosix-ui/react'
 
 export default {
-  title: 'Typografy/Text',
+  title: 'React/Typografy/Text',
   component: Text,
   tags: ['autodocs'],
   argTypes: {

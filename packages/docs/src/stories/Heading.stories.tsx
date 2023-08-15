@@ -3,7 +3,7 @@ import type { StoryObj, Meta } from '@storybook/react'
 import { Heading, HeadingProps } from '@alosix-ui/react'
 
 export default {
-  title: 'Typografy/Heading',
+  title: 'React/Typografy/Heading',
   component: Heading,
   tags: ['autodocs'],
   args: {

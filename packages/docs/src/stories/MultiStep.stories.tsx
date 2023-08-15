@@ -3,7 +3,7 @@ import type { StoryObj, Meta } from '@storybook/react'
 import { Box, MultiStep, MultiStepProps } from '@alosix-ui/react'
 
 export default {
-  title: 'Form/Multi Step',
+  title: 'React/Form/Multi Step',
   component: MultiStep,
   args: {
     size: 4,

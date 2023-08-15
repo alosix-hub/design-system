@@ -4,7 +4,7 @@ import { ArrowRight } from 'phosphor-react'
 import { Button, ButtonProps } from '@alosix-ui/react'
 
 export default {
-  title: 'Form/Button',
+  title: 'React/Form/Button',
   component: Button,
   tags: ['autodocs'],
   args: {

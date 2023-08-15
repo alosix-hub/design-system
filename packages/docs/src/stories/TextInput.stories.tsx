@@ -3,7 +3,7 @@ import type { StoryObj, Meta } from '@storybook/react'
 import { Box, Text, TextInput, TextInputProps } from '@alosix-ui/react'
 
 export default {
-  title: 'Form/Text Input',
+  title: 'React/Form/Text Input',
   component: TextInput,
   args: {},
   tags: ['autodocs'],

@@ -3,7 +3,7 @@ import type { StoryObj, Meta } from '@storybook/react'
 import { Box, Text, Checkbox, CheckboxProps } from '@alosix-ui/react'
 
 export default {
-  title: 'Form/Checkbox',
+  title: 'React/Form/Checkbox',
   component: Checkbox,
   args: {},
   tags: ['autodocs'],

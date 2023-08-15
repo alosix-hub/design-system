@@ -3,7 +3,7 @@ import type { StoryObj, Meta } from '@storybook/react'
 import { Box, Text, TextArea, TextAreaProps } from '@alosix-ui/react'
 
 export default {
-  title: 'Form/Text Area',
+  title: 'React/Form/Text Area',
   component: TextArea,
   args: {},
   tags: ['autodocs'],

@@ -3,7 +3,7 @@ import type { StoryObj, Meta } from '@storybook/react'
 import { Box, BoxProps, Text } from '@alosix-ui/react'
 
 export default {
-  title: 'Form/Box',
+  title: 'React/Form/Box',
   component: Box,
   args: {
     children: <Text>Testando o elemento box</Text>,
