@@ -1,0 +1,4 @@
+{
+  "extends": "@alosix-ui/ts-config/react.json",
+  "include": ["src"]
+}
