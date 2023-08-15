@@ -1,6 +1,6 @@
 import type { StoryObj, Meta } from '@storybook/react'
 
-import { Box, Text, Checkbox, CheckboxProps } from '@alosix-ui/react'
+import { Box, Text, Checkbox, CheckboxProps } from '@alosix-hub-ui/react'
 
 export default {
   title: 'React/Form/Checkbox',

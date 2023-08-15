@@ -1,6 +1,6 @@
 import type { StoryObj, Meta } from '@storybook/react'
 
-import { Box, BoxProps, Text } from '@alosix-ui/react'
+import { Box, BoxProps, Text } from '@alosix-hub-ui/react'
 
 export default {
   title: 'React/Form/Box',

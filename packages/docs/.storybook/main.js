@@ -31,7 +31,7 @@ const config = {
   },
   viteFinal: (config, {configType}) => {
     if(configType === 'PRODUCTION') {
-      config.base = '/alosix_design-system/'
+      config.base = '/design-system/'
     }
 
     //comment

@@ -1,6 +1,6 @@
 import type { StoryObj, Meta } from '@storybook/react'
 
-import { Text, TextProps } from '@alosix-ui/react'
+import { Text, TextProps } from '@alosix-hub-ui/react'
 
 export default {
   title: 'React/Typografy/Text',

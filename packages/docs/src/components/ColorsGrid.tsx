@@ -1,4 +1,4 @@
-import { colors } from '@alosix-ui/tokens'
+import { colors } from '@alosix-hub-ui/tokens'
 import { getContrast } from 'polished'
 
 export function ColorsGrid() {

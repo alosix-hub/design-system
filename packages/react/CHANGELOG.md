@@ -1,4 +1,10 @@
-# @alosix-ui/react
+# @alosix-hub-ui/react
+
+## 4.0.0
+
+### Major Changes
+
+- Core
 
 ## 3.4.1
 

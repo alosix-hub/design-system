@@ -1,4 +1,10 @@
-# @alosix-ui/tokens
+# @alosix-hub-ui/tokens
+
+## 5.0.0
+
+### Major Changes
+
+- Core
 
 ## 4.2.0
 

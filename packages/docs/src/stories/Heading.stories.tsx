@@ -1,6 +1,6 @@
 import type { StoryObj, Meta } from '@storybook/react'
 
-import { Heading, HeadingProps } from '@alosix-ui/react'
+import { Heading, HeadingProps } from '@alosix-hub-ui/react'
 
 export default {
   title: 'React/Typografy/Heading',

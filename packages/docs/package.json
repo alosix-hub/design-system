@@ -1,5 +1,5 @@
 {
-  "name": "@alosix-ui/docs",
+  "name": "@alosix-hub-ui/docs",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -29,10 +29,10 @@
     "vite": "^4.4.8"
   },
   "dependencies": {
-    "@alosix-ui/eslint-config": "*",
-    "@alosix-ui/react": "*",
-    "@alosix-ui/tokens": "*",
-    "@alosix-ui/ts-config": "*",
+    "@alosix-hub-ui/eslint-config": "*",
+    "@alosix-hub-ui/react": "*",
+    "@alosix-hub-ui/tokens": "*",
+    "@alosix-hub-ui/ts-config": "*",
     "phosphor-react": "^1.4.1",
     "polished": "^4.2.2",
     "react": "^18.2.0",

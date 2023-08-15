@@ -1,7 +1,7 @@
 import type { StoryObj, Meta } from '@storybook/react'
 import { ArrowRight } from 'phosphor-react'
 
-import { Button, ButtonProps } from '@alosix-ui/react'
+import { Button, ButtonProps } from '@alosix-hub-ui/react'
 
 export default {
   title: 'React/Form/Button',

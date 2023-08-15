@@ -1,6 +1,6 @@
 import type { StoryObj, Meta } from '@storybook/react'
 
-import { Box, Text, TextInput, TextInputProps } from '@alosix-ui/react'
+import { Box, Text, TextInput, TextInputProps } from '@alosix-hub-ui/react'
 
 export default {
   title: 'React/Form/Text Input',

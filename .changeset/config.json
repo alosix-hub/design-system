@@ -7,5 +7,5 @@
   "access": "public",
   "baseBranch": "main",
   "updateInternalDependencies": "patch",
-  "ignore": ["@alosix-ui/docs"]
+  "ignore": ["@alosix-hub-ui/docs"]
 }

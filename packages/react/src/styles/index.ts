@@ -6,7 +6,7 @@ import {
   lineHeights,
   radii,
   space,
-} from '@alosix-ui/tokens'
+} from '@alosix-hub-ui/tokens'
 import { createStitches, defaultThemeMap } from '@stitches/react'
 
 export const {

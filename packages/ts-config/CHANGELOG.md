@@ -1,4 +1,10 @@
-# @alosix-ui/ts-config
+# @alosix-hub-ui/ts-config
+
+## 3.0.0
+
+### Major Changes
+
+- Core
 
 ## 2.0.0
 

@@ -1,4 +1,4 @@
 {
-  "extends": "@alosix-ui/ts-config/base.json",
+  "extends": "@alosix-hub-ui/ts-config/base.json",
   "include": ["src"]
 }
