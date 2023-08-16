@@ -35,7 +35,7 @@ export const {
   },
 })
 
-export const darkTheme = createTheme('dark-theme', {
+export const darkTheme = createTheme('dark', {
   colors: {
     hiContrast: 'hsl(206,2%,93%)',
     loContrast: 'hsl(206,8%,8%)',
