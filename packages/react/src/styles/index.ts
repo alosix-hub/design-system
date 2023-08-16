@@ -36,7 +36,7 @@ export const {
   },
 })
 
-createTheme('dark', {
+export const darkTheme = createTheme('dark', {
   colors: colorsContrast,
   space: {},
   fonts: {},
