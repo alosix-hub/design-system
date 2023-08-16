@@ -16,5 +16,6 @@ export const colors = {
   alosix700: '#015F43',
   alosix900: '#00291D',
 
-  teste: '#f02'
+  teste: '#f02',
+  testee: '#f0f'
 }

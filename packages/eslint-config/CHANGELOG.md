@@ -1,5 +1,12 @@
 # @alosix-hub-ui/eslint-config
 
+## 2.0.0
+
+### Major Changes
+
+- changes
+- version
+
 ## 3.0.0
 
 ### Major Changes
