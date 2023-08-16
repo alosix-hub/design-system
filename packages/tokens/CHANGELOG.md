@@ -1,5 +1,29 @@
 # @alosix-hub-ui/tokens
 
+## 2.1.0
+
+### Minor Changes
+
+- feat: colors contrast
+
+## 2.0.3
+
+### Patch Changes
+
+- feat: Export token
+
+## 2.0.2
+
+### Patch Changes
+
+- fix: Change import file
+
+## 2.0.1
+
+### Patch Changes
+
+- feat: Schema color contrast
+
 ## 2.0.0
 
 ### Major Changes

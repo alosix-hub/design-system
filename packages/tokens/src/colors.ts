@@ -19,3 +19,4 @@ export const colors = {
   teste: '#f02',
   testee: '#f0f'
 }
+
