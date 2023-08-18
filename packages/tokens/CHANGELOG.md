@@ -1,5 +1,11 @@
 # @alosix-hub-ui/tokens
 
+## 3.0.2
+
+### Patch Changes
+
+- Changes colors again
+
 ## 3.0.1
 
 ### Patch Changes
