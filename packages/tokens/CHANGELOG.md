@@ -1,5 +1,11 @@
 # @alosix-hub-ui/tokens
 
+## 3.0.1
+
+### Patch Changes
+
+- fix: hexadecimal color
+
 ## 3.0.0
 
 ### Major Changes
