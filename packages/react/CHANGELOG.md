@@ -1,5 +1,11 @@
 # @alosix-hub-ui/react
 
+## 3.0.3
+
+### Patch Changes
+
+- little changes input text
+
 ## 3.0.1
 
 ### Patch Changes

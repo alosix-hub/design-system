@@ -1,5 +1,11 @@
 # @alosix-hub-ui/eslint-config
 
+## 3.0.1
+
+### Patch Changes
+
+- little changes input text
+
 ## 3.0.0
 
 ### Major Changes

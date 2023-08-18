@@ -1,10 +1,9 @@
 import { styled } from '../../styles'
 
 export const TextInputContainer = styled('div', {
-  backgroundColor: '$gray900',
-  borderRadius: '$sm',
+  backgroundColor: '$white', 
   boxSizing: 'border-box',
-  border: '2px solid $gray900',
+  border: '1px solid $gray100',
   display: 'flex',
   alignItems: 'center',
 
@@ -20,7 +19,7 @@ export const TextInputContainer = styled('div', {
   },
 
   '&:has(input:focus)': {
-    borderColor: '$alosix300',
+    borderColor: '$alosixG200',
   },
 
   '&:has(input:disabled)': {
@@ -36,11 +35,11 @@ export const TextInputContainer = styled('div', {
 export const Input = styled('input', {
   fontFamily: '$default',
   fontSize: '$sm',
-  color: '$white',
+  color: '$gray300',
   fontWeight: '$regular',
   background: 'transparent',
   border: 0,
-  width: '100%',
+  width: '100%', 
 
   '&:focus': {
     outline: 0,
@@ -52,5 +51,6 @@ export const Input = styled('input', {
 
   '&::placeholder': {
     color: '$gray400',
-  },
+  }, 
 })
+ 

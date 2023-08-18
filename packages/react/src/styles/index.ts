@@ -40,4 +40,4 @@ export const darkTheme = createTheme('dark', {
   colors: colorsContrast,
   space: {},
   fonts: {},
-});
+})

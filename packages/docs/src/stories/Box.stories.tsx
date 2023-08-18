@@ -6,7 +6,7 @@ export default {
   title: 'React/Form/Box',
   component: Box,
   args: {
-    children: <Text>Testando o elemento box</Text>,
+    children: <Text>Testando o elemento box</Text>, 
   },
   argTypes: {
     children: {
