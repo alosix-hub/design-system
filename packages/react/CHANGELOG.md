@@ -1,5 +1,11 @@
 # @alosix-hub-ui/react
 
+## 3.0.1
+
+### Patch Changes
+
+- change color kind text
+
 ## 3.0.0
 
 ### Major Changes
