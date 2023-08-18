@@ -1,5 +1,11 @@
 # @alosix-hub-ui/react
 
+## 3.0.0
+
+### Major Changes
+
+- Onup
+
 ## 2.1.1
 
 ### Patch Changes

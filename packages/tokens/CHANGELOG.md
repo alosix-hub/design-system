@@ -1,5 +1,11 @@
 # @alosix-hub-ui/tokens
 
+## 3.0.0
+
+### Major Changes
+
+- Onup
+
 ## 2.2.0
 
 ### Minor Changes
