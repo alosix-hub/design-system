@@ -1,11 +1,18 @@
-export const colorsContrast = {
-  hiContrast: 'hsl(206,2%,93%)',
-  loContrast: 'hsl(206,8%,8%)',
+export const colorsContrast = {  
+  white: '#000',
+  black: '#FFF',
 
-  gray100: 'hsl(206,8%,12%)',
-  gray200: 'hsl(206,7%,14%)',
-  gray300: 'hsl(206,7%,15%)',
-  gray400: 'hsl(206,7%,24%)',
-  gray500: 'hsl(206,7%,30%)',
-  gray600: 'hsl(206,5%,53%)', 
+  gray100: '#121214',
+  gray200: '#202024',
+  gray400: '#29292E',
+  gray500: '#323238',
+  gray600: '#505059',
+  gray700: '#7C7C8A',
+  gray800: '#A9A9B2',
+  gray900: '#E1E1E6',
+ 
+  alosixG300: '#00B37E',
+  alosixY100: '##F7F7E3',  
+  alosixY300: '#E2E39E',  
+  alosixY500: '#96985E',
 }

@@ -1,9 +1,15 @@
-import { colors } from '@alosix-hub-ui/tokens'
+import { colors, colorsContrast } from '@alosix-hub-ui/tokens'
 import { getContrast } from 'polished'
+  
+type Colors = typeof colors;
+type Contrast = typeof colorsContrast;
 
-export function ColorsGrid() {
-  console.log({ colors })
-  return Object.entries(colors).map(([key, color]) => {
+interface ColorsGridProps {
+  pickColors: Colors | Contrast
+}
+
+export function ColorsGrid({ pickColors }: ColorsGridProps) { 
+  return Object.entries(pickColors).map(([key, color]) => {
     return (
       <div key={key} style={{ backgroundColor: color, padding: '2rem' }}>
         <div
