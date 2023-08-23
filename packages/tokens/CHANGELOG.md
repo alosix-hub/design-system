@@ -1,5 +1,11 @@
 # @alosix-hub-ui/tokens
 
+## 3.3.0
+
+### Minor Changes
+
+- fixe: colors variants
+
 ## 3.2.0
 
 ### Minor Changes

@@ -1,7 +1,8 @@
 import { styled } from '../../styles'
 
 export const SelectContainer = styled('div', {
-  border: '1px solid $alosixG200',
+  border: '1px solid $gray100',
+  backgroundColor: '$white',
 
   variants: {
     isErrored: {
@@ -17,6 +18,11 @@ export const SelectContainer = styled('div', {
     isFocused: {
       true: {
         color: '$alosixG200',
+      },
+    },
+    isNotMulti: {
+      true: {
+        height: '$10',
       },
     },
   },

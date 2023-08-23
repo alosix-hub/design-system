@@ -20,7 +20,7 @@ export function SelectAdvanced({
   name,
   error,
   defaultValue,
-  ...rest
+  ...props
 }: SelectAdvancedProps) {
   const colourStyles = {
     container: (styles: any) => {
@@ -45,9 +45,10 @@ export function SelectAdvanced({
       padding: 0,
       paddingLeft: 15,
       paddingRight: 15,
+      height: props.isMulti ? 'auto' : '42px',
     }),
     dropdownIndicator: (styles: any, state: any) => {
-      const { isChangeDoneIcon } = rest
+      const { isChangeDoneIcon } = props
       return {
         ...styles,
         color:
@@ -123,18 +124,24 @@ export function SelectAdvanced({
   // }
 
   return (
-    <SelectContainer isErrored={error} isFilled={true} isFocused={false}>
+    <SelectContainer
+      isErrored={error}
+      isFilled={true}
+      isFocused={false}
+      isNotMulti={!props.isMulti}
+    >
       <ReactSelect
         name={name}
         // onFocus={handleInputFocus}
         // onBlur={handleInputBlur}
         defaultValue={defaultValue}
         components={{
-          DropdownIndicator: (props) => DropdownIndicatorR(props, rest.isMulti),
+          DropdownIndicator: (props) =>
+            DropdownIndicatorR(props, props.isMulti),
         }}
         noOptionsMessage={() => 'Sem opções!'}
         styles={colourStyles}
-        {...rest}
+        {...props}
       />
 
       {error && (

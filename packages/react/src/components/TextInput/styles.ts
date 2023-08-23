@@ -6,6 +6,7 @@ export const TextInputContainer = styled('div', {
   border: '1px solid $gray100',
   display: 'flex',
   alignItems: 'center',
+  height: '$10',
 
   variants: {
     size: {

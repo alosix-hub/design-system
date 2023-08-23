@@ -7,15 +7,35 @@ import {
   Text,
 } from '@alosix-hub-ui/react'
 
-// TODO
+const optionsMock = [
+  { value: 'apple', label: 'Apple' },
+  { value: 'banana', label: 'Banana' },
+  { value: 'watermelon', label: 'Watermelon' },
+  { value: 'mango', label: 'Mango' },
+  { value: 'grape', label: 'Grape' },
+  { value: 'papaya', label: 'Papaya' },
+  { value: 'cucumber', label: 'Cucumber' },
+  { value: 'tomato', label: 'Tomato' },
+  { value: 'potato', label: 'Potato' },
+  { value: 'strawberry', label: 'Strawberry' },
+  { value: 'cherry', label: 'Cherry' },
+  { value: 'brunette', label: 'Brunette' },
+  { value: 'bean', label: 'Bean' },
+  { value: 'rice', label: 'Rice' },
+  { value: 'salad', label: 'Salad' },
+  { value: 'okra', label: 'Okra' },
+  { value: 'basil', label: 'Basil' },
+  { value: 'jackfruit', label: 'Jackfruit' },
+  { value: 'grape', label: 'Grape' },
+  { value: 'grape', label: 'Grape' },
+]
+
 export default {
   title: 'React/Form/SelectAdvanced',
   component: SelectAdvanced,
   args: {
-    options: [
-      { value: 'apple', label: 'Apple' },
-      { value: 'banana', label: 'Banana' },
-    ],
+    options: optionsMock,
+    closeMenuOnSelect: false,
   },
   tags: ['autodocs'],
   decorators: [
@@ -47,6 +67,6 @@ export const Single: StoryObj<SelectAdvancedProps> = {
 export const Multiple: StoryObj<SelectAdvancedProps> = {
   args: {
     isMulti: true,
-    defaultValue: { label: 'aple1', value: 'aple' },
+    defaultValue: optionsMock[0],
   },
 }

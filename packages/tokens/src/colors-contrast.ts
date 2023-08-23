@@ -3,6 +3,7 @@ export const colorsContrast = {
   black: '#121214',
 
   gray100: '#202024',
+  gray150: '#202024',
   gray200: '#29292E',
   gray300: '#323238',
   gray400: '#505059',
