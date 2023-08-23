@@ -12,6 +12,10 @@
   },
   "devDependencies": {
     "@changesets/cli": "^2.26.2",
+    "@types/react-select": "^5.0.1",
     "turbo": "^1.10.12"
+  },
+  "dependencies": {
+    "react-select": "^5.7.4"
   }
 }

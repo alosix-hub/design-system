@@ -1,4 +1,4 @@
-export const colorsContrast = {  
+export const colorsContrast = {
   white: '#000',
   black: '#121214',
 
@@ -9,11 +9,12 @@ export const colorsContrast = {
   gray500: '#7C7C8A',
   gray600: '#A9A9B2',
   gray700: '#E1E1E6',
-  gray800: '#f1f1f6', 
- 
+  gray800: '#f1f1f6',
+
   alosixG200: '#7cb063',
   alosixG300: '#00B37E',
-  alosixY100: '#F7F7E3',  
-  alosixY300: '#E2E39E',  
+  alosixY100: '#F7F7E3',
+  alosixY300: '#E2E39E',
   alosixY500: '#96985E',
+  alosixR500: '#b80b0b',
 }

@@ -9,12 +9,12 @@ export const colors = {
   gray500: '#505059',
   gray600: '#323238',
   gray700: '#29292E',
-  gray800: '#202024', 
- 
+  gray800: '#202024',
+
   alosixG200: '#7cb063',
   alosixG300: '#5C9D3D',
-  alosixY100: '#F7F7E3',  
-  alosixY300: '#E2E39E',  
-  alosixY500: '#96985E',  
+  alosixY100: '#F7F7E3',
+  alosixY300: '#E2E39E',
+  alosixY500: '#96985E',
+  alosixR500: '#f91818',
 }
-

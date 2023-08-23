@@ -1,7 +1,7 @@
 import { styled } from '../../styles'
 
 export const TextInputContainer = styled('div', {
-  backgroundColor: '$white', 
+  backgroundColor: '$white',
   boxSizing: 'border-box',
   border: '1px solid $gray100',
   display: 'flex',
@@ -9,13 +9,13 @@ export const TextInputContainer = styled('div', {
 
   variants: {
     size: {
-      sm: { 
+      sm: {
         padding: '$2 $3',
       },
-      md: { 
+      md: {
         padding: '$3 $4',
-      }
-    }
+      },
+    },
   },
 
   '&:has(input:focus)': {
@@ -28,10 +28,10 @@ export const TextInputContainer = styled('div', {
   },
 
   defaultVariants: {
-    size: 'md'
-  }
+    size: 'md',
+  },
 })
- 
+
 export const Input = styled('input', {
   fontFamily: '$default',
   fontSize: '$sm',
@@ -39,7 +39,7 @@ export const Input = styled('input', {
   fontWeight: '$regular',
   background: 'transparent',
   border: 0,
-  width: '100%', 
+  width: '100%',
 
   '&:focus': {
     outline: 0,
@@ -51,6 +51,5 @@ export const Input = styled('input', {
 
   '&::placeholder': {
     color: '$gray400',
-  }, 
+  },
 })
- 
