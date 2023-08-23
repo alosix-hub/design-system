@@ -1,6 +1,6 @@
 import { WarningCircle } from 'phosphor-react'
 import ReactSelect, { Props as ReactSelectProps } from 'react-select'
-import { DropdownIndicatorR } from './DropdownIndicatorR'
+import { DropdownIndicator } from './DropdownIndicator'
 
 import { Error, SelectContainer } from './styles'
 
@@ -136,8 +136,7 @@ export function SelectAdvanced({
         // onBlur={handleInputBlur}
         defaultValue={defaultValue}
         components={{
-          DropdownIndicator: (props) =>
-            DropdownIndicatorR(props, props.isMulti),
+          DropdownIndicator: (rest) => DropdownIndicator(rest, props.isMulti),
         }}
         noOptionsMessage={() => 'Sem opções!'}
         styles={colourStyles}

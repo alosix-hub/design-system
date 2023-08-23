@@ -60,7 +60,7 @@ export default {
 
 export const Single: StoryObj<SelectAdvancedProps> = {
   args: {
-    placeholder: 'Selecione',
+    placeholder: 'Selecion2e',
   },
 }
 

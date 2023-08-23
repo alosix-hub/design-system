@@ -1,5 +1,11 @@
 # @alosix-hub-ui/react
 
+## 3.3.1
+
+### Patch Changes
+
+- renamed folder select
+
 ## 3.3.0
 
 ### Minor Changes
