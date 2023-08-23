@@ -1,5 +1,11 @@
 # @alosix-hub-ui/react
 
+## 3.3.4
+
+### Patch Changes
+
+- border color
+
 ## 3.3.3
 
 ### Patch Changes

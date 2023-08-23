@@ -1,7 +1,7 @@
 import { styled } from '../../styles'
 
 export const SelectContainer = styled('div', {
-  border: '1px solid $gray100',
+  border: '1px solid $gray200',
   backgroundColor: 'transparent',
 
   variants: {
