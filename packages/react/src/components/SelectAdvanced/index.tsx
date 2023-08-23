@@ -12,16 +12,10 @@ interface Option {
 export interface SelectAdvancedProps extends ReactSelectProps {
   name: string
   error: boolean
-  defaultValue: Option
   isChangeDoneIcon?: Option[] | null | undefined
 }
 
-export function SelectAdvanced({
-  name,
-  error,
-  defaultValue,
-  ...props
-}: SelectAdvancedProps) {
+export function SelectAdvanced({ name, error, ...props }: SelectAdvancedProps) {
   const colourStyles = {
     container: (styles: any) => {
       return {
@@ -134,7 +128,6 @@ export function SelectAdvanced({
         name={name}
         // onFocus={handleInputFocus}
         // onBlur={handleInputBlur}
-        defaultValue={defaultValue}
         components={{
           DropdownIndicator: (rest) => DropdownIndicator(rest, props.isMulti),
         }}
