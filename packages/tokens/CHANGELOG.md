@@ -1,5 +1,12 @@
 # @alosix-hub-ui/tokens
 
+## 3.2.0
+
+### Minor Changes
+
+- feat: T
+- 599a965: feat: Add component select
+
 ## 3.0.3
 
 ### Patch Changes
