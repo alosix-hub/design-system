@@ -2,7 +2,7 @@ import { styled } from '../../styles'
 
 export const SelectContainer = styled('div', {
   border: '1px solid $gray100',
-  backgroundColor: '$white',
+  backgroundColor: 'transparent',
 
   variants: {
     isErrored: {

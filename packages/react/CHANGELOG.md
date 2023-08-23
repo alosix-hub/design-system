@@ -1,5 +1,11 @@
 # @alosix-hub-ui/react
 
+## 3.3.3
+
+### Patch Changes
+
+- background transparent
+
 ## 3.3.2
 
 ### Patch Changes

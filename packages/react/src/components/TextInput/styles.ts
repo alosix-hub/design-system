@@ -1,7 +1,7 @@
 import { styled } from '../../styles'
 
 export const TextInputContainer = styled('div', {
-  backgroundColor: '$white',
+  backgroundColor: 'transparent',
   boxSizing: 'border-box',
   border: '1px solid $gray100',
   display: 'flex',
