@@ -1,5 +1,11 @@
 # @alosix-hub-ui/react
 
+## 3.4.2
+
+### Patch Changes
+
+- feat: adding boxshadow styling properties
+
 ## 3.4.1
 
 ### Patch Changes

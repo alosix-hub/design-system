@@ -33,6 +33,7 @@ export const {
     lineHeights,
     radii,
     space,
+    boxShadow: colors,
   },
 })
 
