@@ -1,5 +1,11 @@
 # @alosix-hub-ui/react
 
+## 3.4.1
+
+### Patch Changes
+
+- Change colors format selectadvanced
+
 ## 3.4.0
 
 ### Minor Changes

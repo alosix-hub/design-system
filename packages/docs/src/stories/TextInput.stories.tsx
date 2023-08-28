@@ -39,4 +39,10 @@ export const WithIcon: StoryObj<TextInputProps> = {
   args: {
     startIcon: FaLeaf,
   },
+  argTypes: {
+    startIcon: {
+      options: ['FaLeaf'],
+      control: { type: 'select' }, // Automatically inferred when 'options' is defined
+    },
+  },
 }

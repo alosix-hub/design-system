@@ -84,13 +84,14 @@ export function SelectAdvanced({ name, error, ...props }: SelectAdvancedProps) {
       return { ...styles, transition }
     },
     placeholder: (styles: any) => {
-      return { ...styles, color: '#808080' }
+      return { ...styles, color: '#E1E1E6' }
     },
     valueContainer: (styles: any, { isMulti }: any) => {
       return {
         ...styles,
         padding: isMulti ? '10px 0' : 0,
         color: '#353535',
+        fontSize: '0.875rem',
       }
     },
     indicatorSeparator: (styles: any) => {
