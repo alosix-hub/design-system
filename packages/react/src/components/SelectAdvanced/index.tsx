@@ -22,6 +22,7 @@ export function SelectAdvanced({ name, error, ...props }: SelectAdvancedProps) {
         ...styles,
         color: '#fff',
         width: '100%',
+        boxSizing: 'border-box',
       }
     },
     menuList: (styles: any) => ({
@@ -39,7 +40,8 @@ export function SelectAdvanced({ name, error, ...props }: SelectAdvancedProps) {
       padding: 0,
       paddingLeft: 15,
       paddingRight: 15,
-      height: props.isMulti ? 'auto' : '42px',
+      height: props.isMulti ? 'auto' : '48px',
+      minHeight: '46px',
     }),
     dropdownIndicator: (styles: any, state: any) => {
       const { isChangeDoneIcon } = props

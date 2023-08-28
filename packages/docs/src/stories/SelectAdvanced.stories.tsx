@@ -35,7 +35,6 @@ export default {
   component: SelectAdvanced,
   args: {
     options: optionsMock,
-    closeMenuOnSelect: false,
   },
   tags: ['autodocs'],
   decorators: [
@@ -60,7 +59,7 @@ export default {
 
 export const Single: StoryObj<SelectAdvancedProps> = {
   args: {
-    placeholder: 'Selecion2e',
+    placeholder: 'Selecione',
   },
 }
 
@@ -68,5 +67,6 @@ export const Multiple: StoryObj<SelectAdvancedProps> = {
   args: {
     isMulti: true,
     defaultValue: optionsMock[0],
+    closeMenuOnSelect: false,
   },
 }

@@ -22,7 +22,7 @@ export const SelectContainer = styled('div', {
     },
     isNotMulti: {
       true: {
-        height: '$10',
+        height: '$12',
       },
     },
   },

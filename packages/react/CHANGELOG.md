@@ -1,5 +1,11 @@
 # @alosix-hub-ui/react
 
+## 3.4.0
+
+### Minor Changes
+
+- feat: start icon text input
+
 ## 3.3.4
 
 ### Patch Changes

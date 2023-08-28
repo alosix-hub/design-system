@@ -1,6 +1,7 @@
 import type { StoryObj, Meta } from '@storybook/react'
 
 import { Box, Text, TextInput, TextInputProps } from '@alosix-hub-ui/react'
+import { FaLeaf } from 'react-icons/fa'
 
 export default {
   title: 'React/Form/Text Input',
@@ -34,9 +35,8 @@ export const Disabled: StoryObj<TextInputProps> = {
   },
 }
 
-export const WithPrefix: StoryObj<TextInputProps> = {
+export const WithIcon: StoryObj<TextInputProps> = {
   args: {
-    prefix: 'cal.com/',
-    placeholder: 'your-username'
+    startIcon: FaLeaf,
   },
 }

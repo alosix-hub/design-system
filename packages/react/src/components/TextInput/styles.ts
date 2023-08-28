@@ -6,7 +6,13 @@ export const TextInputContainer = styled('div', {
   border: '1px solid $gray200',
   display: 'flex',
   alignItems: 'center',
-  height: '$10',
+  height: '$12',
+
+  '> svg': {
+    marginRight: '$2',
+    color: '$alosixG200',
+    fontSize: '$xl',
+  },
 
   variants: {
     size: {
@@ -36,7 +42,7 @@ export const TextInputContainer = styled('div', {
 export const Input = styled('input', {
   fontFamily: '$default',
   fontSize: '$sm',
-  color: '$gray300',
+  color: '$gray500',
   fontWeight: '$regular',
   background: 'transparent',
   border: 0,
@@ -51,6 +57,6 @@ export const Input = styled('input', {
   },
 
   '&::placeholder': {
-    color: '$gray400',
+    color: '$gray300',
   },
 })
