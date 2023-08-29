@@ -1,5 +1,11 @@
 # @alosix-hub-ui/react
 
+## 3.5.0
+
+### Minor Changes
+
+- Change format checkbox; add variant large button
+
 ## 3.4.2
 
 ### Patch Changes

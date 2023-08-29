@@ -20,7 +20,7 @@ export default {
       },
     },
     size: {
-      options: ['sm', 'md'],
+      options: ['sm', 'md', 'lg'],
       control: {
         type: 'inline-radio',
       },
@@ -72,5 +72,13 @@ export const WithIcon: StoryObj<ButtonProps> = {
 export const Disabled: StoryObj<ButtonProps> = {
   args: {
     disabled: true,
+  },
+}
+
+export const Large: StoryObj<ButtonProps> = {
+  args: {
+    children: 'CALCULATE',
+    variant: 'primary',
+    size: 'lg',
   },
 }

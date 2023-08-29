@@ -3,7 +3,7 @@ import { styled } from '../styles'
 
 export const Button = styled('button', {
   all: 'unset',
-  borderRadius: '$sm',
+  borderRadius: '$xs',
   fontSize: '$sm',
   fontWeight: '$medium',
   fontFamily: '$default',
@@ -16,12 +16,18 @@ export const Button = styled('button', {
   alignItems: 'center',
   justifyContent: 'center',
   gap: '$2',
+  backgroundColor: '$alosixG300',
+  transition: 'background .2s',
 
   cursor: 'pointer',
 
   svg: {
     width: '$4',
     height: '$4',
+  },
+
+  '&:not(:disabled):hover': {
+    background: '$alosixG500',
   },
 
   '&:disabled': {
@@ -36,23 +42,17 @@ export const Button = styled('button', {
     variant: {
       primary: {
         color: '$white',
-        background: '$alosix500',
-
-        '&:not(:disabled):hover': {
-          background: '$alosix300',
-        },
 
         '&:disabled': {
-          backgroundColor: '$gray200',
+          backgroundColor: '$gray700',
         },
       },
 
       secondary: {
-        color: '$alosix300',
-        border: '2px solid $alosix500',
+        color: '$white',
+        border: '2px solid $alosixG300',
 
         '&:not(:disabled):hover': {
-          background: '$alosix500',
           color: '$white',
         },
 
@@ -66,7 +66,6 @@ export const Button = styled('button', {
         color: '$gray100',
 
         '&:not(:disabled):hover': {
-          background: '$alosix500',
           color: '$white',
         },
 
@@ -83,6 +82,11 @@ export const Button = styled('button', {
 
       md: {
         height: 46,
+      },
+
+      lg: {
+        height: 65,
+        minWidth: '245px',
       },
     },
   },

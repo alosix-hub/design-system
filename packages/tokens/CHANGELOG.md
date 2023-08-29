@@ -1,5 +1,11 @@
 # @alosix-hub-ui/tokens
 
+## 3.4.0
+
+### Minor Changes
+
+- Change format checkbox; add variant large button
+
 ## 3.3.0
 
 ### Minor Changes
