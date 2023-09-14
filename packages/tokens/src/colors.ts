@@ -18,6 +18,8 @@ export const colors = {
   alosixY100: '#F7F7E3',
   alosixY300: '#E2E39E',
   alosixY500: '#96985E',
-  alosixR500: '#f91818',
+  alosixR200: '#ff4242',
+  alosixR500: '#c31e1e',
+  alosixR700: '#951212',
 }
 // TODO

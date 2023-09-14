@@ -1,4 +1,5 @@
 import { styled } from '../../styles'
+import { Tooltip } from '../Tooltip'
 
 export const SelectContainer = styled('div', {
   border: '1px solid $gray200',
@@ -7,17 +8,7 @@ export const SelectContainer = styled('div', {
   variants: {
     isErrored: {
       true: {
-        borderColor: '$alosixR500',
-      },
-    },
-    isFilled: {
-      true: {
-        color: '$alosixG200',
-      },
-    },
-    isFocused: {
-      true: {
-        color: '$alosixG200',
+        borderColor: '$alosixR200',
       },
     },
     isNotMulti: {
@@ -28,4 +19,4 @@ export const SelectContainer = styled('div', {
   },
 })
 
-export const Error = styled('div', {})
+export const ErrorContainer = styled(Tooltip, {})

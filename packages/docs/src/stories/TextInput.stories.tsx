@@ -29,6 +29,12 @@ export const Primary: StoryObj<TextInputProps> = {
   },
 }
 
+export const Errored: StoryObj<TextInputProps> = {
+  args: {
+    error: 'Campo obrigatorio',
+  },
+}
+
 export const Disabled: StoryObj<TextInputProps> = {
   args: {
     disabled: true,

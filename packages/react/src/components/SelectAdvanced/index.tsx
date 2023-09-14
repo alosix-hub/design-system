@@ -2,7 +2,7 @@ import { WarningCircle } from 'phosphor-react'
 import ReactSelect, { Props as ReactSelectProps } from 'react-select'
 import { DropdownIndicator } from './DropdownIndicator'
 
-import { Error, SelectContainer } from './styles'
+import { ErrorContainer, SelectContainer } from './styles'
 
 interface Option {
   value: string
@@ -11,7 +11,7 @@ interface Option {
 
 export interface SelectAdvancedProps extends ReactSelectProps {
   name: string
-  error: boolean
+  error: string
   isChangeDoneIcon?: Option[] | null | undefined
 }
 
@@ -106,31 +106,10 @@ export function SelectAdvanced({ name, error, ...props }: SelectAdvancedProps) {
       }
     },
   }
-  // const inputRef = useRef(null)
-
-  // const [isFocused, setIsFocused] = useState(false)
-  // const [isFilled, setIsFilled] = useState(false)
-
-  // function handleInputFocus() {
-  //   setIsFocused(true)
-  // }
-  // function handleInputBlur() {
-  //   setIsFocused(false)
-
-  //   // setIsFilled(!!inputRef.current)
-  // }
-
   return (
-    <SelectContainer
-      isErrored={error}
-      isFilled={true}
-      isFocused={false}
-      isNotMulti={!props.isMulti}
-    >
+    <SelectContainer isErrored={!!error} isNotMulti={!props.isMulti}>
       <ReactSelect
         name={name}
-        // onFocus={handleInputFocus}
-        // onBlur={handleInputBlur}
         components={{
           DropdownIndicator: (rest) => DropdownIndicator(rest, props.isMulti),
         }}
@@ -140,9 +119,9 @@ export function SelectAdvanced({ name, error, ...props }: SelectAdvancedProps) {
       />
 
       {error && (
-        <Error>
+        <ErrorContainer title={error}>
           <WarningCircle color="#f91818" size={20} />
-        </Error>
+        </ErrorContainer>
       )}
     </SelectContainer>
   )

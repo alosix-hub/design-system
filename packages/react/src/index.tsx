@@ -9,5 +9,7 @@ export * from './components/Checkbox'
 export * from './components/MultiStep'
 export * from './components/SelectAdvanced'
 export * from './components/Select'
+export * from './components/ToastContainer'
+export * from './components/Tooltip'
 
 export * from './styles'

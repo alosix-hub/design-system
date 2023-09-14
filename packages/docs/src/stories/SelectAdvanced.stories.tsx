@@ -63,6 +63,12 @@ export const Single: StoryObj<SelectAdvancedProps> = {
   },
 }
 
+export const SingleError: StoryObj<SelectAdvancedProps> = {
+  args: {
+    error: 'errorru',
+  },
+}
+
 export const Multiple: StoryObj<SelectAdvancedProps> = {
   args: {
     isMulti: true,

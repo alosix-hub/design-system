@@ -1,4 +1,5 @@
 import { styled } from '../../styles'
+import { Tooltip } from '../Tooltip'
 
 export const TextInputContainer = styled('div', {
   backgroundColor: 'transparent',
@@ -15,6 +16,11 @@ export const TextInputContainer = styled('div', {
   },
 
   variants: {
+    error: {
+      true: {
+        borderColor: '$alosixR200',
+      },
+    },
     size: {
       sm: {
         padding: '$2 $3',
@@ -58,5 +64,25 @@ export const Input = styled('input', {
 
   '&::placeholder': {
     color: '$gray300',
+  },
+})
+
+export const ErrorContainer = styled(Tooltip, {
+  height: '20px',
+  marginLeft: '16px',
+  width: 'auto',
+
+  svg: {
+    margin: 0,
+  },
+
+  span: {
+    textAlign: 'center',
+    background: '$alosixR500',
+    color: '#fff',
+
+    '&::before': {
+      borderColor: '$alosixR500 transparent',
+    },
   },
 })
