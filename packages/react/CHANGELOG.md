@@ -1,5 +1,11 @@
 # @alosix-hub-ui/react
 
+## 4.0.1
+
+### Patch Changes
+
+- Test
+
 ## 4.0.0
 
 ### Major Changes
