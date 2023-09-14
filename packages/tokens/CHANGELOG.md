@@ -1,5 +1,11 @@
 # @alosix-hub-ui/tokens
 
+## 4.0.0
+
+### Major Changes
+
+- eebe651: feat: Add tooltip and toast; error styled fields
+
 ## 3.4.0
 
 ### Minor Changes

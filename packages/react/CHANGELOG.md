@@ -1,5 +1,12 @@
 # @alosix-hub-ui/react
 
+## 4.0.0
+
+### Major Changes
+
+- eebe651: feat: Add tooltip and toast; error styled fields
+- :fix
+
 ## 3.5.0
 
 ### Minor Changes
