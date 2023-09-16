@@ -11,7 +11,7 @@ interface Option {
 
 export interface SelectAdvancedProps extends ReactSelectProps {
   name: string
-  error: string
+  error?: string
   isChangeDoneIcon?: Option[] | null | undefined
 }
 

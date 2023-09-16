@@ -76,3 +76,11 @@ export const Multiple: StoryObj<SelectAdvancedProps> = {
     closeMenuOnSelect: false,
   },
 }
+
+export const MultipleError: StoryObj<SelectAdvancedProps> = {
+  args: {
+    isMulti: true,
+    closeMenuOnSelect: false,
+    error: 'errorru',
+  },
+}

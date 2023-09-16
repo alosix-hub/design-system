@@ -5,7 +5,9 @@ import { Box, Text, Checkbox, CheckboxProps } from '@alosix-hub-ui/react'
 export default {
   title: 'React/Form/Checkbox',
   component: Checkbox,
-  args: {},
+  args: {
+    onChange: () => console.log('teste'),
+  },
   tags: ['autodocs'],
   decorators: [
     (Story) => {
@@ -20,6 +22,11 @@ export default {
       )
     },
   ],
+  argTypes: {
+    onChange: {
+      action: 'change',
+    },
+  },
 } as Meta<CheckboxProps>
 
 export const Primary: StoryObj<CheckboxProps> = {}

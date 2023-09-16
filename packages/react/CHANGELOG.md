@@ -1,5 +1,11 @@
 # @alosix-hub-ui/react
 
+## 4.1.0
+
+### Minor Changes
+
+- fixed: select advanced variant error
+
 ## 4.0.1
 
 ### Patch Changes
