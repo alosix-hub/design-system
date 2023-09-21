@@ -1,5 +1,11 @@
 # @alosix-hub-ui/react
 
+## 4.2.0
+
+### Minor Changes
+
+- Add grid
+
 ## 4.1.2
 
 ### Patch Changes
