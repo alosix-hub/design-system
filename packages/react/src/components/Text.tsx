@@ -26,7 +26,7 @@ export const Text = styled('p', {
   },
 
   defaultVariants: {
-    size: 'md',
+    size: 'sm',
   },
 })
 
