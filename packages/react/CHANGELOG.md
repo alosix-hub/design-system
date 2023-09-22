@@ -1,5 +1,11 @@
 # @alosix-hub-ui/react
 
+## 4.2.1
+
+### Patch Changes
+
+- medias
+
 ## 4.2.0
 
 ### Minor Changes

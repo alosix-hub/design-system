@@ -35,6 +35,12 @@ export const {
     space,
     boxShadow: colors,
   },
+  media: {
+    $xs: '@media (min-width: 480px)',
+    $sm: '@media (min-width: 640px)',
+    $md: '@media (min-width: 1024px)',
+    $lg: '@media (min-width: 1280px)',
+  },
 })
 
 export const darkTheme = createTheme('dark', {

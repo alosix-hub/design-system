@@ -1,4 +1,3 @@
-// Todo: teste
 export * from './components/Box'
 export * from './components/Text'
 export * from './components/Heading'
@@ -12,7 +11,6 @@ export * from './components/SelectAdvanced'
 export * from './components/Tooltip'
 export * from './components/ToastContainer'
 export * from './components/Select'
-export * from './components/Grid'
 export * from './components/Box'
 
 export * from './styles'

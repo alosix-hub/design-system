@@ -35,5 +35,3 @@ export interface TextProps extends ComponentProps<typeof Text> {
 }
 
 Text.displayName = 'Text'
-
-// Again

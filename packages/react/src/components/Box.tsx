@@ -1,11 +1,9 @@
-import { ComponentProps, ElementType } from 'react'
+import { ComponentProps } from 'react'
 import { Box as BoxRadix } from '@radix-ui/themes'
 import { styled } from '../styles'
 
 export const Box = styled(BoxRadix, {})
 
-export interface BoxRadix extends ComponentProps<typeof Box> {
-  as?: ElementType
-}
+export type BoxProps = ComponentProps<typeof Box>
 
 Box.displayName = 'Box'
