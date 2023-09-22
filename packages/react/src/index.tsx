@@ -12,5 +12,6 @@ export * from './components/Tooltip'
 export * from './components/ToastContainer'
 export * from './components/Select'
 export * from './components/Box'
+export * from './components/Grid'
 
 export * from './styles'

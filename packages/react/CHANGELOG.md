@@ -1,5 +1,11 @@
 # @alosix-hub-ui/react
 
+## 4.2.2
+
+### Patch Changes
+
+- Create grid
+
 ## 4.2.1
 
 ### Patch Changes
