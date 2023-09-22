@@ -1,5 +1,11 @@
 # @alosix-hub-ui/react
 
+## 5.0.1
+
+### Patch Changes
+
+- remove width style
+
 ## 5.0.0
 
 ### Major Changes
