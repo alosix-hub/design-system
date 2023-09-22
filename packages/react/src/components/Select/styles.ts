@@ -3,8 +3,8 @@ import { styled } from '../../styles'
 
 export const SelectContainer = styled(Select.Root, {
   all: 'unset',
-  width: '$6',
-  height: '$6',
+  width: '$s6',
+  height: '$s6',
   backgroundColor: '$gray900',
   borderRadius: '$xs',
   lineHeight: 0,

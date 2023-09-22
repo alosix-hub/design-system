@@ -14,12 +14,12 @@ export const Label = styled(Text, {
 export const Steps = styled('div', {
   display: 'grid',
   gridTemplateColumns: 'repeat(var(--steps-size), 1fr)',
-  gap: '$2',
-  marginTop: '$1',
+  gap: '$s2',
+  marginTop: '$s1',
 })
 
 export const Step = styled('div', {
-  height: '$1',
+  height: '$s1',
   borderRadius: '$px',
   backgroundColor: '$gray600',
 

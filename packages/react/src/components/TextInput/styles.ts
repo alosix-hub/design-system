@@ -7,10 +7,10 @@ export const TextInputContainer = styled('div', {
   border: '1px solid $gray200',
   display: 'flex',
   alignItems: 'center',
-  height: '$12',
+  height: '$s12',
 
   '> svg': {
-    marginRight: '$2',
+    marginRight: '$s2',
     color: '$alosixG200',
     fontSize: '$xl',
   },
@@ -23,10 +23,10 @@ export const TextInputContainer = styled('div', {
     },
     size: {
       sm: {
-        padding: '$2 $3',
+        padding: '$s2 $s3',
       },
       md: {
-        padding: '$3 $4',
+        padding: '$s3 $s4',
       },
     },
   },

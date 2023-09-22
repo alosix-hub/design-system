@@ -3,7 +3,7 @@ import { styled } from '../styles'
 
 export const TextArea = styled('textarea', {
   backgroundColor: '$gray900',
-  padding: '$3 $4',
+  padding: '$s3 $s4',
   borderRadius: '$sm',
   boxSizing: 'border-box',
   border: '2px solid $gray900',

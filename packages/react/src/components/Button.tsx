@@ -1,7 +1,6 @@
 import { ComponentProps, ElementType } from 'react'
 import { styled } from '../styles'
 
-// Commend
 export const Button = styled('button', {
   all: 'unset',
   borderRadius: '$xs',
@@ -11,20 +10,20 @@ export const Button = styled('button', {
   textAlign: 'center',
   minWidth: 120,
   boxSizing: 'border-box',
-  padding: '0 $4',
+  padding: '0 $s4',
 
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'center',
-  gap: '$2',
+  gap: '$s2',
   backgroundColor: '$alosixG300',
   transition: 'background .2s',
 
   cursor: 'pointer',
 
   svg: {
-    width: '$4',
-    height: '$4',
+    width: '$s4',
+    height: '$s4',
   },
 
   '&:not(:disabled):hover': {

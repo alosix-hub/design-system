@@ -1,5 +1,11 @@
 # @alosix-hub-ui/react
 
+## 5.0.0
+
+### Major Changes
+
+- font change market
+
 ## 4.2.2
 
 ### Patch Changes
