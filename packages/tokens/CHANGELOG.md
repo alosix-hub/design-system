@@ -1,5 +1,11 @@
 # @alosix-hub-ui/tokens
 
+## 4.0.1
+
+### Patch Changes
+
+- Change space token
+
 ## 4.0.0
 
 ### Major Changes
