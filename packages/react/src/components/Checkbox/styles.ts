@@ -3,8 +3,8 @@ import { styled, keyframes } from '../../styles'
 
 export const CheckboxContainer = styled(Checkbox.Root, {
   all: 'unset',
-  width: '$s4',
-  height: '$s4',
+  width: '$4',
+  height: '$4',
   backgroundColor: '$gray100',
   borderRadius: '$xs',
   lineHeight: 0,
@@ -46,8 +46,8 @@ const slideOut = keyframes({
 
 export const CheckboxIndicator = styled(Checkbox.Indicator, {
   color: '$white',
-  width: '$s4',
-  height: '$s4',
+  width: '$4',
+  height: '$4',
 
   '&[data-state="checked"]': {
     animation: `${slideIn} 200ms ease-out`,

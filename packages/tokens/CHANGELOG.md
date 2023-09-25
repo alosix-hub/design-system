@@ -1,5 +1,11 @@
 # @alosix-hub-ui/tokens
 
+## 4.0.2
+
+### Patch Changes
+
+- Change fonts
+
 ## 4.0.1
 
 ### Patch Changes
