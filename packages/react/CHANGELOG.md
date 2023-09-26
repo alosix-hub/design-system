@@ -1,5 +1,15 @@
 # @alosix-hub-ui/react
 
+## 5.1.0
+
+### Minor Changes
+
+- d408ad7: feat: Add modal component
+
+### Patch Changes
+
+- feat: Dialog close
+
 ## 5.0.3
 
 ### Patch Changes

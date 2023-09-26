@@ -14,6 +14,10 @@ export * from './components/Select'
 export * from './components/Box'
 export * from './components/Grid'
 export * from './components/Dialog'
-export { DialogRoot, DialogTrigger } from './components/Dialog/styles'
+export {
+  DialogRoot,
+  DialogTrigger,
+  DialogClose,
+} from './components/Dialog/styles'
 
 export * from './styles'

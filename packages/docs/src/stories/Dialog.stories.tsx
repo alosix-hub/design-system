@@ -6,6 +6,7 @@ import {
   DialogProps,
   DialogRoot,
   DialogTrigger,
+  DialogClose,
   Text,
 } from '@alosix-hub-ui/react'
 
@@ -13,8 +14,13 @@ export default {
   title: 'React/Data display/Dialog',
   component: Dialog,
   args: {
-    children: <Text>Description</Text>,
-    title: 'Titulo',
+    children: (
+      <div>
+        <Text>Description</Text>
+        <DialogClose> Save and Close</DialogClose>
+      </div>
+    ),
+    title: 'Title',
   },
   decorators: [
     (Story) => {
@@ -22,7 +28,7 @@ export default {
         <div>
           <DialogRoot>
             <DialogTrigger asChild>
-              <Button type="button">Modal</Button>
+              <Button>Modal</Button>
             </DialogTrigger>
             {Story()}
           </DialogRoot>
