@@ -13,5 +13,7 @@ export * from './components/ToastContainer'
 export * from './components/Select'
 export * from './components/Box'
 export * from './components/Grid'
+export * from './components/Dialog'
+export { DialogRoot, DialogTrigger } from './components/Dialog/styles'
 
 export * from './styles'
