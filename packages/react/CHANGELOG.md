@@ -1,5 +1,11 @@
 # @alosix-hub-ui/react
 
+## 5.1.1
+
+### Patch Changes
+
+- fix: z index dialog
+
 ## 5.1.0
 
 ### Minor Changes
