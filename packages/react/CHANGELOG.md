@@ -1,5 +1,11 @@
 # @alosix-hub-ui/react
 
+## 5.1.2
+
+### Patch Changes
+
+- ref container portal dialog
+
 ## 5.1.1
 
 ### Patch Changes

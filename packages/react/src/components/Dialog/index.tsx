@@ -1,4 +1,4 @@
-import { ReactNode } from 'react'
+import { ReactNode, RefObject } from 'react'
 import { X } from 'phosphor-react'
 
 import {
@@ -12,11 +12,12 @@ import {
 export interface DialogProps {
   children: ReactNode
   title: string
+  container?: HTMLElement | null | undefined
 }
 
-export function Dialog({ children, title }: DialogProps) {
+export function Dialog({ children, title, container }: DialogProps) {
   return (
-    <DialogPortal>
+    <DialogPortal container={container}>
       <DialogOverlay />
       <DialogContent>
         <DialogTitle>{title}</DialogTitle>
