@@ -1,5 +1,11 @@
 # @alosix-hub-ui/react
 
+## 5.1.3
+
+### Patch Changes
+
+- Close asChild
+
 ## 5.1.2
 
 ### Patch Changes

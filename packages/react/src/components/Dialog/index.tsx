@@ -1,4 +1,4 @@
-import { ReactNode, RefObject } from 'react'
+import { ReactNode } from 'react'
 import { X } from 'phosphor-react'
 
 import {
@@ -22,7 +22,7 @@ export function Dialog({ children, title, container }: DialogProps) {
       <DialogContent>
         <DialogTitle>{title}</DialogTitle>
 
-        <CloseButton>
+        <CloseButton asChild>
           <X />
         </CloseButton>
 
