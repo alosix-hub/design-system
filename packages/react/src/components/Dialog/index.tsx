@@ -12,7 +12,7 @@ import {
 export interface DialogProps {
   children: ReactNode
   title: string
-  container?: HTMLElement
+  container?: HTMLElement | undefined | null
   offClosed?: boolean
 }
 
