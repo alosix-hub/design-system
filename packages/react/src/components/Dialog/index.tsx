@@ -12,19 +12,27 @@ import {
 export interface DialogProps {
   children: ReactNode
   title: string
-  container?: HTMLElement | null | undefined
+  container?: HTMLElement
+  offClosed?: boolean
 }
 
-export function Dialog({ children, title, container }: DialogProps) {
+export function Dialog({
+  children,
+  title,
+  container,
+  offClosed = false,
+}: DialogProps) {
   return (
     <DialogPortal container={container}>
       <DialogOverlay />
       <DialogContent>
         <DialogTitle>{title}</DialogTitle>
 
-        <CloseButton asChild>
-          <X />
-        </CloseButton>
+        {!offClosed && (
+          <CloseButton asChild>
+            <X />
+          </CloseButton>
+        )}
 
         {children}
       </DialogContent>
